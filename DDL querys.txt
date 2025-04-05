@@ -1,0 +1,67 @@
+
+-- create
+CREATE TABLE student (
+   id INT PRIMARY KEY AUTO_INCREMENT,
+   email VARCHAR(30) NOT NULL UNIQUE,
+   name VARCHAR(30) NOT NULL,
+   status BOOLEAN DEFAULT true,
+   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+-- insert
+
+INSERT INTO student (email, name, status, created_at, updated_at) VALUES 
+("dp032040@gmail.com", "divyesh", false, DEFAULT, DEFAULT),
+("rahulsir@gmail.com", "rahulsir", true, DEFAULT, DEFAULT),
+("anita.sharma@gmail.com", "Anita Sharma", true, DEFAULT, DEFAULT),
+("rohit.kumar@gmail.com", "Rohit Kumar", true, DEFAULT, DEFAULT),
+("meena.patel@gmail.com", "Meena Patel", false, DEFAULT, DEFAULT),
+("arjun.verma@gmail.com", "Arjun Verma", true, DEFAULT, DEFAULT),
+("priya.singh@gmail.com", "Priya Singh", true, DEFAULT, DEFAULT),
+("vikas.raj@gmail.com", "Vikas Raj", false, DEFAULT, DEFAULT);
+
+
+-- drop (delete complete tablw permanently)
+
+
+-- ALTER TABLE 
+
+-- step 1 Add a new column 'age'
+ALTER TABLE student
+ADD age INT;
+
+
+
+-- Step 2: Modify the 'name' column size to 150 characters
+ALTER TABLE student
+MODIFY name VARCHAR(150);
+
+-- Step 3: Rename the column 'name' to 'full_name'
+ALTER TABLE student 
+RENAME COLUMN name TO first_name;
+
+
+-- -- Step 4: Drop the column 'age'
+ALTER TABLE student
+DROP COLUMN status;
+
+-- -- Step 5: Rename the table to 'college_students'
+ALTER TABLE student
+RENAME TO college_students;
+
+
+-- TRUNCATE (DELETE ALL THE ROWS FROM A TABLE )
+-- TRUNCATE TABLE college_students;
+
+SELECT * FROM college_students;  
+
+
+
+-- RENAME
+RENAME TABLE college_students TO students;
+
+SELECT * FROM STUDENTS;
+
+
+
