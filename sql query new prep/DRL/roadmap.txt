@@ -36,6 +36,8 @@ HAVING vs WHERE
 ✅ 7. Aliasing
 AS for columns and tables
 
+------------------------------------
+
 ✅ 8. Joins (Interview Gold)
 INNER JOIN
 
