@@ -1,0 +1,67 @@
+🧠 What We’ll Cover: SELECT — From Zero to Hero
+✅ 1. Basics of SELECT
+SELECTing all columns
+
+SELECTing specific columns
+
+Using DISTINCT
+
+✅ 2. Filtering Data
+WHERE clause
+
+Logical operators: AND, OR, NOT
+
+Comparison operators: =, !=, <, >, IN, BETWEEN, LIKE
+
+✅ 3. Sorting & Limiting
+ORDER BY
+
+LIMIT, TOP, FETCH FIRST
+
+✅ 4. Working with NULLs
+IS NULL, IS NOT NULL
+
+✅ 5. Built-in Functions
+Aggregate: COUNT(), SUM(), AVG(), MIN(), MAX()
+
+String: UPPER(), LOWER(), LENGTH(), SUBSTRING(), CONCAT()
+
+Date: NOW(), CURDATE(), YEAR(), MONTH(), DATEDIFF()
+
+✅ 6. Grouping & Aggregation
+GROUP BY
+
+HAVING vs WHERE
+
+✅ 7. Aliasing
+AS for columns and tables
+
+✅ 8. Joins (Interview Gold)
+INNER JOIN
+
+LEFT JOIN
+
+RIGHT JOIN
+
+FULL JOIN
+
+SELF JOIN
+
+CROSS JOIN
+
+✅ 9. Subqueries
+In SELECT, WHERE, FROM, EXISTS
+
+Correlated vs Non-Correlated
+
+✅ 10. Set Operators
+UNION, UNION ALL, INTERSECT, EXCEPT
+
+✅ 11. Advanced Usage
+CASE WHEN THEN
+
+Window functions: ROW_NUMBER(), RANK(), DENSE_RANK(), LEAD(), LAG()
+
+CTEs (WITH clause)
+
+Views (SELECT with abstraction)
